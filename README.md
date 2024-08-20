@@ -4,6 +4,7 @@ Repositório destinado para armazenar códigos/scripts dos estudos de tecnologia
 # ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white)
  - [Enumeração de Sites](https://github.com/ivankovalinkinas/diversos/blob/main/PowerShell/enumeracao.ps1)
  - [Find Flag Post Laravel](https://github.com/ivankovalinkinas/diversos/blob/main/PowerShell/Laravel_Find_Flag.ps1)
+ - [Scanner TCP/IP](https://github.com/ivankovalinkinas/diversos/blob/main/PowerShell/Scanner_TCP.ps1)
 
 <br><br>
 | Status | Linguagem |
