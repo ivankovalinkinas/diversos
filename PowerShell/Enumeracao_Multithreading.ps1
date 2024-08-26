@@ -8,8 +8,6 @@
 # Versão: 1.0.0 Beta                                                                            #
 # Data: 26/08/2024                                                                              #
 #===============================================================================================#
-[datetime]$startScript = Get-Date
-
 Add-Type -AssemblyName System.Management.Automation
 
 # "CAMINHO_PARA_O_DICIONARIO" > Exemplo: C:\Temp\common.txt"
@@ -83,7 +81,3 @@ foreach ($job in $jobs) {
 }
 
 $results | ForEach-Object { $_ }
-
-[datetime]$endScript = Get-Date
-[int]$tempoExecucao = (($endScript - $startScript).Seconds)
-Write-Output "O tempo total de execução foi de $tempoExecucao segundos."
