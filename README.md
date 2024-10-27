@@ -5,6 +5,7 @@ Repositório destinado para armazenar códigos/scripts dos estudos de tecnologia
  - [Enumeração de Sites](https://github.com/ivankovalinkinas/diversos/blob/main/PowerShell/enumeracao.ps1)
  - [Enumeração de Sites - Multithreading](https://github.com/ivankovalinkinas/diversos/blob/main/PowerShell/Enumeracao_Multithreading.ps1)
  - [Find Flag Post Laravel](https://github.com/ivankovalinkinas/diversos/blob/main/PowerShell/Laravel_Find_Flag.ps1)
+ - [NoSQL Injection](https://github.com/ivankovalinkinas/diversos/blob/main/PowerShell/NoSQL_Injection.ps1)
  - [Scanner TCP/IP](https://github.com/ivankovalinkinas/diversos/blob/main/PowerShell/Scanner_TCP.ps1)
 
 <br><br>
