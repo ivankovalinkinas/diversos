@@ -7,6 +7,7 @@ Repositório destinado para armazenar códigos/scripts dos estudos de tecnologia
  - [Find Flag Post Laravel](https://github.com/ivankovalinkinas/diversos/blob/main/PowerShell/Laravel_Find_Flag.ps1)
  - [NoSQL Injection](https://github.com/ivankovalinkinas/diversos/blob/main/PowerShell/NoSQL_Injection.ps1)
  - [Scanner TCP/IP](https://github.com/ivankovalinkinas/diversos/blob/main/PowerShell/Scanner_TCP.ps1)
+ - [SQLi Tamper](https://github.com/ivankovalinkinas/diversos/blob/main/PowerShell/SQLi_Tamper.ps1)
  - [SQLi Time Based Blind](https://github.com/ivankovalinkinas/diversos/blob/main/PowerShell/SQLi_Time_Based_Blind.ps1)
 
 <br><br>
